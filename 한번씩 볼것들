@@ -1,0 +1,11 @@
+1. endl; 보다 "\n" 이 더 빠르다.
+
+2.ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL); 를 쓰면 빨라진다.
+
+3. 배열을 동적 메모리 할당 할때 0으로 모두 초기화 하는 법은 끝에 ()를 붙이면 된다.
+    int* arr = new int[10]()
+
+4. std::getline은 첫번째 매개변수에 파일을 입력받을 건지 표준 입력 받을건지를 정하고 두번쨰에 이름
+   cin::getline은 첫번째 매개변수에 string이름과 두번째에 사이즈
